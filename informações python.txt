@@ -1,0 +1,26 @@
+TIPO DESCRIÇÃO EXEMPLO
+
+int Armazena números inteiros positivos e
+negativos.
+Idade = 15
+
+float Armazena números decimais positivos
+e negativos.
+
+Nota = 7.5
+string Armazena caracteres, envolvendo
+conteúdo com aspas simples ou
+duplas.
+
+Nome = “Sergio”
+boolean Armazena True (verdadeiro) ou False
+(falso).
+
+Disponível = True
+Disponível = False
+list Armazena diversos conteúdos em
+uma mesma variável, gerando uma
+lista de elementos separados por
+vírgulas e envolvidos por colchetes
+.
+Lista = [5, 10, 15]
