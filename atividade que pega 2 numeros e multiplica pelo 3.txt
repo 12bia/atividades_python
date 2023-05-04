@@ -1,0 +1,8 @@
+##PROGRAMA QUE RECEBE 3 VALORES E IMPRIME A SOMA DOS 2 PRIMEIROS E MULTIPLICA PELO 3
+
+a= 2
+b= 3
+c= 1
+
+soma= a+b*c
+print(soma)
