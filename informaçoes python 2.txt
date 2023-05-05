@@ -1,0 +1,16 @@
+nome=input(" escreva seu nome:\n")
+
+salario=float(input(" Escreva seu salário:\n"))
+
+print( " O funcionário %s recebeu %.2f"%(nome,salario)) ##Placeroulder 
+## o %s pega a variável lá de cima nome=input(" escreva seu nome:\n") e escreve no print , o nome no lugar do %s.
+'
+######################################################
+
+## Concatenação.
+
+a= "Bia"
+b= "Broetto"
+
+print( " Olá"+a+""+b+" você foi selecionado para participar do BBB 24")## o + nesse caso junta os textos.
+
