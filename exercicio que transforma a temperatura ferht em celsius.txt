@@ -1,0 +1,7 @@
+print(" Bem vindo ao jornal falado!")
+
+F=float(input(" Para participar de nosso programa escreva a temperatura da sua cidade:"))
+
+c=(5/9)*(F-32)
+
+print(" A conversão de temperatura de Fahrenheit para Celsius da sua cidade  é de%.2f"%c)
