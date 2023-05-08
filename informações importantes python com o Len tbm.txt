@@ -1,0 +1,18 @@
+'''
+## junta os numeros 
+a=input(" Digite um valor:")
+print(a+a) ##junta os numeros , ou as variáveis.
+
+## faz as contas.
+numero=int(input(" Digite um valor:"))
+media= numero+numero
+print(media)
+
+'''
+##Função Len
+## Ela serve para contar os algarismos, as variáveis, tipo nome
+
+a=" AnaBeatrizBentoBroetto"  ##tipo nome
+print(len(a))
+
+############
