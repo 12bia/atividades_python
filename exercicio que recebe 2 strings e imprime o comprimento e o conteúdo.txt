@@ -1,0 +1,9 @@
+conte=input("Escreva uma frase:")
+fra=input(" Digite outra:\n")
+
+print(conte,"\n",fra)
+
+a= conte
+b= fra
+print(len(a))
+print(len(b))
