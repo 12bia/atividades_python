@@ -1,0 +1,17 @@
+##entrada de dados
+produto =input(" Digite o produto que deseja: ")
+quanti= float(input(" Digite a quantidade comprada:"))
+preço=float(input(" Digite o preço:"))
+desconto=float(input(" Digite o desconto:"))
+
+##começa as contas.
+valor_uni = preço * desconto / 100
+pagar = preço - valor_uni
+
+#### o %s pega as variáveis lá de cima  e escreve no print , o valor no lugar do %s.
+print( " O produto comprado foi:",produto)
+print("Com desconto de %.2f %%  em uma mercadoria de R$ %.2f" % (desconto, preço))  ##Concatenação %%  ##por que se tirar 1 simbolo da porcentagem ele não roda?
+print("vale R$ %.2f." % valor_uni)     ##Concatenação %%
+print("O valor a pagar é de R$ %.2f" % pagar)    ##Concatenação %% ## 2f é as casas que ele vai mostrar e o f é o Float(real).
+
+##R$ 2 mil. Ao dividir o valor total pago pelo número de itens (500 canetas), é possível saber que o custo unitário é de R$ 4.
