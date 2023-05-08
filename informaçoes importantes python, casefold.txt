@@ -1,4 +1,14 @@
-##  Como transformar todo  texto em minúsculo.
+##  Como transformar todo  texto em minúsculo.Parte 1
 a= " BROETTO"
 
 print(a.casefold())
+
+
+
+
+## pARTE 2
+
+a= " BIA"
+
+print(a.lower())
+
