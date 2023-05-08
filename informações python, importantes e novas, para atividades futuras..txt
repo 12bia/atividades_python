@@ -1,0 +1,199 @@
+'''
+## junta os numeros 
+a=input(" Digite um valor:")
+print(a+a) ##junta os numeros , ou as variáveis.
+
+## faz as contas.
+numero=int(input(" Digite um valor:"))
+media= numero+numero
+print(media)
+
+'''
+##Função Len
+## Ela serve para contar os algarismos, as variáveis, tipo nome, ele conta as letras.
+
+a=" AnaBeatrizBentoBroetto"  ##tipo nome
+print(len(a))
+
+############
+
+## Capitalizar
+## Transforma a primeira letra da primeira palavra em maiúsculo
+
+a= "bia" ## fica com o B maiúsculo. Bia 
+
+print(a.capitalize())
+
+#############################################
+##upper
+##COMO TRANSFORMAR todo O TEXTO EM MAIÚSCULO.
+
+a= "bia"
+
+print(a.upper())
+
+########################################
+
+##  Como transformar todo  texto em minúsculo.PARTE 1
+a= " BROETTO"
+
+print(a.casefold())
+
+####################
+## pARTE 2
+## ele deixa minusculo.
+
+a= " BIA"
+
+print(a.lower())
+
+#####################################
+## Usando o TRue( verdadeideiro ) ou False(falso)
+
+a= "BIA"
+print(a.islower())
+
+## usando o true(verdadeiro)
+
+a= " BIA"
+print(a.isupper())
+
+## FUNção isdigit
+##Verifica se uma string só possui números.
+
+a= "1234"
+
+print(a.isdigit())
+
+##vai dar verdadeiro e imprimir os números.
+#############################333
+
+print(a)
+
+b= "1234abc"
+
+print(b.isdigit())
+
+print(b)
+
+## vai dae falso e imprimir os numeros e as letras
+
+######################################33
+
+## Função replace
+
+## o método replace serve para trocar as ocorrências de uma substring por outra em uma string.
+a= " Bia Broetto"
+
+print(a.replace("Bia","Ana"))
+
+## resultado ele troca bia por ana.
+
+
+
+##################################
+## Função split(sep)
+## substitui o tracinho por vírgula. ele sempre coloca vírgula.
+## O método split(sep) separa uma sting usando o sep como separador.
+## Retorna uma lisa das substings 
+## Se passado sem parâmetro substitui espaço por  ","
+## Ou  substitui o parâmetro por ",
+
+a= " Bia-Broetto"
+
+print(a.split("-"))
+
+##########################################
+
+## Função Find 
+
+## O método find retorna onde a sustring começa na sting (" Primeira")
+## Ela pega a primeira aparição da letra.
+
+a= " Ana Beatriz Bento"
+
+print(a.find("a"))
+
+##############################################
+
+## Função rfind
+
+## O método rfind retorna inde a substring começa na string (" última")
+
+a= " Bia Bento  Broetto"
+
+print(a.rfind(" Broetto"))
+
+######################################
+
+## Função in
+
+## O operador in verfica se uma sustring é parete de uma outra stiring, ou seja, ele verficifa se a variável se encontra lá dentro, e se isso é falso ou não.
+
+a= " bibi Broetto"
+
+print(" bibi"in a)
+
+#################################################3
+
+## Função count
+
+## O operador count retorna a frêquencia de ocorrência do parâmetro passado.
+## Ele conta quantas letras tem na frase, conforme vc define na variável.
+a= " Ana Paula Alves Bento Broetto"
+
+print(a.count("A"))
+
+#########################################
+
+##Função Substrings
+
+## Podemos acessar caracteres específicpos de uma string em python usando a notação()
+## nESTE ESUQMA DE ACESSO A  caracteres de uma string, o primeiro caracter está no índeice 0, o segundo no indíce 1 , e assim por diante.
+# ele também pega o espaço.
+
+s= "Uno cupido en lo ensino médio."
+
+print(s[0])
+
+print(s[2])
+
+print(s[7])
+
+####################################################
+
+#Função Substrings negativos.
+
+# podemos também acessar os elementos em ordem reversa usando indíces negativos.
+#Neste esquema, o último caracter de uma string está no índice -1, o penultimo no indice -2 e assim por diente.
+
+s= " Bay gente"
+print(s[-3])
+
+print(s[-4])
+
+print(s[-5])
+
+################################################3
+#Função Substrings(Slices)
+
+##Podemos também acessar fatias ou "slices" de uma string ou lista em python
+#uma fatia de uma string pode ser acessada se fornecermos os índices do começo e do final da fatia que desejamos analisar.
+
+s= " hello gente"
+
+print(s[1:9])
+
+##########################################################
+
+# Função Substrings.
+## Se omitirmos o indice de inicio da fatia ou de final ( ou ambos), o indice e o final da string serão considerados, respectivamente.
+
+s= " Vem pra cá dançar!"
+print(s[ :3])
+
+
+
+
+
+
