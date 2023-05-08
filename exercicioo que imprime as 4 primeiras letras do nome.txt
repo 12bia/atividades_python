@@ -1,0 +1,6 @@
+nome=input(" Digites seu nome:")
+
+
+s= nome
+
+print(s[0:4])
