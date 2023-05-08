@@ -1,0 +1,4 @@
+conte=input("Escreva uma frase:")
+
+a= conte
+print(len(a))
