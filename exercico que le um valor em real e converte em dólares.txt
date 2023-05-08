@@ -1,0 +1,7 @@
+real= float(input(" Digite um valor:"))
+## cotação do dólar está 5 reais.
+valor_dolar= input(" Digite o valor da cotação do dolar:""\n")
+
+dolar= real/5
+
+print("  O valor convertido em dólares é de %.2f Us$ " % dolar)
