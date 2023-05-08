@@ -16,3 +16,17 @@ a=" AnaBeatrizBentoBroetto"  ##tipo nome
 print(len(a))
 
 ############
+
+## Capitalizar
+## Transforma a primeira letra da primeira palavra em maiúsculo
+
+a= "bia"
+
+print(a.capitalize())
+
+##upper
+##COMO TRANSFORMAR todo O TEXTO EM MAIÚSCULO.
+
+a= "bia"
+
+print(a.upper())
