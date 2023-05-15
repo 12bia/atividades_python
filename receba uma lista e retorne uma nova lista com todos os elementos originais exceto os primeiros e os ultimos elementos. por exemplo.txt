@@ -1,0 +1,10 @@
+# escreva uma função que receba uma lista e retorne uma nova lista com todos os elementos originais exceto os primeiros e os ultimos elementos. por exemplo:
+#t=[1,2,3,4]
+#resultado:[2,3]
+
+
+
+b=["1","2","3","4"]
+del b[0]
+del b[-1]
+print(b) # ele deleta, mas tem que colocar 0 e - 1, porque se colocar 0 e 3 ele deleta o 0 que é o 1, e conta tudo de novo.[]"2","3","4"]= fazend com que o 2 seja o 0 agora.
