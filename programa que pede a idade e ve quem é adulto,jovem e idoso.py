@@ -4,40 +4,32 @@
 # calculada.
 # imprimir a quantidade de jovem, adulto e idoso.
 
-count=0
-while True:
-    op=input(" Digite 1 para entrar, e x para sair!")
-    if op=="x" and "X":
-        print(" Saindo...")
-        print(" Bay")
-        break
-    elif  op=="1":
-        print(" Bem vindo!")
-        id=int(input(" Digite a sua idade:"))
-        count=count+1
-    
-        media=(count+id)/2
 
-    if op=="x" and "X":
-        print(" Saindo...")
-        print(" Bay")
-        break
+z=0
+x=[]
+while z != -1:
+    z = int(input('Digite a idade: '))
 
-    if media >0 and media <25:
-        print(" Turma jovem") 
-       
-    elif media >26 and media <60:
-        print(" Turma adulta")
-      
-    elif media >=60:
-        print(" Turma idosa.")    
-        
-    if op=="x" and "X":
+    if z != -1:
+        x.append(z)
 
+if len(x) != 0:
+    media = sum(x)/len(x)
+
+m = round(media,0)
+
+if 0 <= m <= 25:
+    print('Populacao jovem')
+
+if 26 <= m <= 60:
+    print('Populacao adulta')
+
+if m > 60:
+    print('Populacao idosa')
     
     
 
-        print(" ")
+
         
    
  
